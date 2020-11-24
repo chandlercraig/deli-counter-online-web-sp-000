@@ -18,4 +18,6 @@ end
 
 def take_a_number(array, name)
     array.push(name)
+    if array.length == 1
+      puts "Welcome, #{array[0]}. You are number 1 in line."
 end
