@@ -21,6 +21,6 @@ def take_a_number(array, name)
     if array.length == 1
       puts "Welcome, #{array[0]}. You are number 1 in line."
     elsif array.length > 1
-      puts "Welcome, #{array.last}. You are number #{array.length-1} in line."
+      puts "Welcome, #{array.last}. You are number #{array.length} in line."
     end
 end
