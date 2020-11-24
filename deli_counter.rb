@@ -11,6 +11,6 @@ def line(array)
       new_arr.push(new_el)
       counter+=1
     end
+    puts "The line is currently: #{new_arr.join(" ")}"
   end
-  puts "The line is currently: #{new_arr.join(" ")}"
 end
