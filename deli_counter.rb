@@ -10,6 +10,7 @@ def line(array)
       new_el = "#{counter+1}. #{array[counter]}"
       new_arr.push(new_el)
       counter+=1
+    end
   end
   puts "The line is currently: #{new_arr.join(" ")}"
 end
