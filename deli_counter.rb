@@ -8,6 +8,7 @@ def line(array)
     counter = 0
     while counter < array.length
       new_el = "#{counter+1}. #{array[counter]}"
+      new_arr.push(new_el)
       counter+=1
   end
 end
